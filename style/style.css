@@ -1,0 +1,167 @@
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/league-spartan-v11-latin-500.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "League Spartan";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/league-spartan-v11-latin-700.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+
+body {
+  height: 100%;
+  font-family: "League Spartan";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  background-image: url("./images/Combined\ Shape.png");
+  background-repeat: no-repeat;
+  background-position: top 5px center;
+  background-color: #effafa;
+}
+
+.list {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  margin-top: 237px;
+  padding-bottom: 40px;
+}
+
+.list__item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 32px 35px;
+  box-shadow: 0px 6px 6px rgb(213, 234, 236);
+}
+
+.last-img {
+  margin-right: 24px;
+}
+
+.item__wrapper {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  margin-right: auto;
+}
+
+.top__item {
+  display: flex;
+  width: 237px;
+  align-items: center;
+  margin-right: auto;
+  gap: 12px;
+  /* justify-content: space-between; */
+}
+
+.top__item-title {
+  color: #5ca5a5;
+}
+
+.top__item-text {
+  width: 51px;
+  height: 24px;
+  padding: 7px 10px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: #5ca5a5;
+  text-transform: uppercase;
+}
+
+.top__item-description {
+  width: 79px;
+  height: 24px;
+  padding: 7px 10px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffffff;
+  background-color: #2b3939;
+  text-transform: uppercase;
+}
+
+.center__item {
+  width: 255px;
+}
+
+.center__item-title {
+  font-size: 22px;
+  line-height: 24px;
+}
+
+.bottom__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-right: auto;
+}
+
+.circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #b7c4c4;
+}
+
+.bottom__item-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7c8f8f;
+}
+
+.list__post {
+  display: flex;
+  gap: 16px;
+  color: #5ca5a5;
+}
+
+.list__post-text {
+  text-align: center;
+  padding: 8px 19px;
+  border-radius: 4px;
+  background-color: #eff6f6;
+}
